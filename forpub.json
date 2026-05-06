@@ -702,5 +702,143 @@
                 "desc": "免费素材图片和视频，100%免费，任何地方使用无需注明归属。"
             }
         ]
+    },
+    {
+        "category": "网络空间测绘",
+        "items": [
+            {
+                "title": "FOFA",
+                "link": "https://fofa.info",
+                "icon": "./icon/fofa.svg",
+                "tags": ["搜索","API","免费/收费"],
+                "desc": "全球最大的网络空间测绘搜索引擎。"
+            },
+            {
+                "title": "Quake",
+                "link": "https://quake.360.cn",
+                "icon": "./icon/quake.svg",
+                "tags": ["搜索","API","企业"],
+                "desc": "360网络安全大脑网络空间测绘平台。"
+            },
+            {
+                "title": "Hunter",
+                "link": "https://hunter.qianxin.com",
+                "icon": "./icon/hunter.svg",
+                "tags": ["搜索","API","企业"],
+                "desc": "奇安信全球互联网资产搜集与攻击面分析平台。"
+            },
+            {
+                "title": "Shodan",
+                "link": "https://www.shodan.io",
+                "icon": "./icon/shodan.svg",
+                "tags": ["搜索","API","免费/收费"],
+                "desc": "全球知名的网络空间测绘与IoT搜索引擎。"
+            },
+            {
+                "title": "Censys",
+                "link": "https://search.censys.io",
+                "icon": "./icon/censys.svg",
+                "tags": ["搜索","API","免费/收费"],
+                "desc": "面向互联网暴露资产的全面数据引擎。"
+            },
+            {
+                "title": "ZoomEye",
+                "link": "https://www.zoomeye.org",
+                "icon": "./icon/zoomeye.svg",
+                "tags": ["搜索","API","企业"],
+                "desc": "知道创宇网络空间测绘引擎。"
+            },
+            {
+                "title": "Fingerprint",
+                "link": "https://fp.sh",
+                "icon": "./icon/fingerprint.svg",
+                "tags": ["指纹","免费"],
+                "desc": "ZoomEye团队开源的Web资产指纹库。"
+            },
+            {
+                "title": "C燕子",
+                "link": "https://chanyanzi.com",
+                "icon": "./icon/chanyanzi.svg",
+                "tags": ["搜索","免费"],
+                "desc": "免费网络空间搜索引擎，快速查询IP/域名资产。"
+            },
+            {
+                "title": "零零信安Goby",
+                "link": "https://gobies.org",
+                "icon": "./icon/goby.svg",
+                "tags": ["扫描","免费/收费"],
+                "desc": "攻击面检测与网络空间测绘系统，快速发现资产暴露面。"
+            },
+            {
+                "title": "Vulfocus",
+                "link": "https://fofa.info/laboratory/proxy",
+                "icon": "./icon/vulfocus.svg",
+                "tags": ["漏洞靶场","API"],
+                "desc": "FOFA团队开源漏洞靶场平台，支持Docker一键部署。"
+            },
+            {
+                "title": "諦探",
+                "link": "https://www.ditan.vip",
+                "icon": "./icon/ditan.svg",
+                "tags": ["搜索","企业"],
+                "desc": "默安科技网络空间测绘平台。"
+            },
+            {
+                "title": "DonaBug",
+                "link": "https://www.donasec.net",
+                "icon": "./icon/donasec.svg",
+                "tags": ["搜索","免费"],
+                "desc": "洞态AI安全团队开源网络空间搜索引擎。"
+            },
+            {
+                "title": "GreyNoise",
+                "link": "https://viz.greynoise.io",
+                "icon": "./icon/greynoise.svg",
+                "tags": ["态势","API","收费"],
+                "desc": "专注于识别扫描和爬虫行为的情报平台。"
+            },
+            {
+                "title": "Onyphe",
+                "link": "https://www.onyphe.io",
+                "icon": "./icon/onyphe.svg",
+                "tags": ["搜索","API","免费/收费"],
+                "desc": "法国网络空间搜索引擎，数据覆盖全球。"
+            },
+            {
+                "title": "BinaryEdge",
+                "link": "https://www.binaryedge.io",
+                "icon": "./icon/binaryedge.svg",
+                "tags": ["搜索","API","企业"],
+                "desc": "全球网络空间安全情报平台。"
+            },
+            {
+                "title": "LeakIX",
+                "link": "https://leakix.net",
+                "icon": "./icon/leakix.svg",
+                "tags": ["搜索","免费","数据泄露"],
+                "desc": "开源网络空间搜索引擎，关注数据泄露信息。"
+            },
+            {
+                "title": "FullHunt",
+                "link": "https://fullhunt.io",
+                "icon": "./icon/fullhunt.svg",
+                "tags": ["搜索","API","收费"],
+                "desc": "攻击面管理与暴露面检测平台。"
+            },
+            {
+                "title": "Netlas",
+                "link": "https://app.netlas.io",
+                "icon": "./icon/netlas.svg",
+                "tags": ["搜索","API","免费/收费"],
+                "desc": "网络资产发现与攻击面管理平台。"
+            },
+            {
+                "title": "C99",
+                "link": "https://c99.nl",
+                "icon": "./icon/c99.svg",
+                "tags": ["搜索","API","免费"],
+                "desc": "快速网络空间扫描与子域名发现工具。"
+            }
+        ]
     }
 ]
