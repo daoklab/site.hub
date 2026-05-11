@@ -749,20 +749,6 @@
                 "desc": "知道创宇网络空间测绘引擎。"
             },
             {
-                "title": "Fingerprint",
-                "link": "https://fp.sh",
-                "icon": "./icon/fingerprint.svg",
-                "tags": ["指纹","免费"],
-                "desc": "ZoomEye团队开源的Web资产指纹库。"
-            },
-            {
-                "title": "C燕子",
-                "link": "https://chanyanzi.com",
-                "icon": "./icon/chanyanzi.svg",
-                "tags": ["搜索","免费"],
-                "desc": "免费网络空间搜索引擎，快速查询IP/域名资产。"
-            },
-            {
                 "title": "零零信安Goby",
                 "link": "https://gobies.org",
                 "icon": "./icon/goby.svg",
