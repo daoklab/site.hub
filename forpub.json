@@ -898,7 +898,7 @@
             {
                 "title": "Claude Code",
                 "link": "https://claude.ai",
-                
+                "icon": "./icon/claude.svg",
                 "tags": [
                     "编程Agent",
                     "终端"
