@@ -812,6 +812,7 @@
             {
                 "title": "Manus",
                 "link": "https://manus.im",
+                "icon": "./icon/manus.svg",
                 "tags": [
                     "自主Agent",
                     "通用"
