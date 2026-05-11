@@ -864,6 +864,7 @@
             {
                 "title": "LangChain",
                 "link": "https://langchain.com",
+                "icon": "./icon/langchain.svg",
                 "tags": [
                     "Agent框架",
                     "开源"
