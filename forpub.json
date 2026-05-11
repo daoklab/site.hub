@@ -805,5 +805,238 @@
                 "desc": "快速网络空间扫描与子域名发现工具。"
             }
         ]
+    },
+    {
+        "category": "通用自主Agent",
+        "items": [
+            {
+                "title": "Manus",
+                "link": "https://manus.im",
+                "tags": [
+                    "自主Agent",
+                    "通用"
+                ],
+                "desc": "Monica旗下通用自主AI Agent，可浏览网页、写代码、完成复杂多步骤任务。"
+            },
+            {
+                "title": "AutoGPT",
+                "link": "https://agpt.co",
+                "tags": [
+                    "自主Agent",
+                    "开源"
+                ],
+                "desc": "最早的自主AI Agent之一，自动链式调用LLM完成目标，支持网络访问和文件管理。"
+            },
+            {
+                "title": "OpenAI Operator",
+                "link": "https://openai.com/operator",
+                "tags": [
+                    "自主Agent",
+                    "浏览器"
+                ],
+                "desc": "OpenAI自主浏览器Agent，可自动填表、点击按钮、完成在线任务。"
+            },
+            {
+                "title": "Claude Computer Use",
+                "link": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
+                "tags": [
+                    "自主Agent",
+                    "电脑操控"
+                ],
+                "desc": "Anthropic让Claude操控电脑屏幕、鼠标和键盘的能力，实现真正的自主操作。"
+            },
+            {
+                "title": "Google Project Mariner",
+                "link": "https://deepmind.google/technologies/project-mariner/",
+                "tags": [
+                    "自主Agent",
+                    "浏览器"
+                ],
+                "desc": "Google DeepMind基于Gemini的自主浏览器Agent，可导航网页完成复杂任务。"
+            },
+            {
+                "title": "BabyAGI",
+                "link": "https://github.com/yoheinakajima/babyagi",
+                "tags": [
+                    "自主Agent",
+                    "开源",
+                    "任务驱动"
+                ],
+                "desc": "轻量级任务驱动自主Agent，自动创建、排序和执行任务。"
+            },
+            {
+                "title": "MetaGPT",
+                "link": "https://github.com/geekan/MetaGPT",
+                "tags": [
+                    "多Agent",
+                    "开源",
+                    "软件开发"
+                ],
+                "desc": "多Agent协作框架，模拟软件公司角色（PM/架构师/工程师）协同开发。"
+            },
+            {
+                "title": "AutoGen",
+                "link": "https://microsoft.github.io/autogen/",
+                "tags": [
+                    "多Agent",
+                    "微软",
+                    "开源"
+                ],
+                "desc": "微软开源多Agent对话协作框架，支持Agent间自主协商完成复杂任务。"
+            },
+            {
+                "title": "CrewAI",
+                "link": "https://crewai.com",
+                "tags": [
+                    "多Agent",
+                    "开源",
+                    "角色协作"
+                ],
+                "desc": "多Agent角色扮演协作编排框架，定义角色和任务让Agent团队合作。"
+            },
+            {
+                "title": "LangChain",
+                "link": "https://langchain.com",
+                "tags": [
+                    "Agent框架",
+                    "开源"
+                ],
+                "desc": "最流行的LLM应用开发框架，支持Agent、工具调用、RAG等能力。"
+            },
+            {
+                "title": "Dify",
+                "link": "https://dify.ai",
+                "tags": [
+                    "Agent平台",
+                    "开源"
+                ],
+                "desc": "开源LLM应用开发平台，可视化Agent工作流编排，支持RAG和工具集成。"
+            },
+            {
+                "title": "OpenAI Agents SDK",
+                "link": "https://github.com/openai/openai-agents-python",
+                "tags": [
+                    "Agent框架",
+                    "OpenAI",
+                    "开源"
+                ],
+                "desc": "OpenAI轻量多Agent编排框架（Swarm继任），支持多Agent协作和工具调用。"
+            }
+        ]
+    },
+    {
+        "category": "编程AI Agent",
+        "items": [
+            {
+                "title": "Claude Code",
+                "link": "https://claude.ai",
+                "tags": [
+                    "编程Agent",
+                    "终端"
+                ],
+                "desc": "Anthropic终端编程Agent，可理解整个代码库、编辑文件、执行命令和管理Git。"
+            },
+            {
+                "title": "Codex",
+                "link": "https://chat.openai.com",
+                "tags": [
+                    "编程Agent",
+                    "云端"
+                ],
+                "desc": "OpenAI云端自主编程Agent，沙箱环境执行，自动修Bug和创建PR。"
+            },
+            {
+                "title": "Cursor",
+                "link": "https://cursor.com",
+                "tags": [
+                    "AI编辑器",
+                    "Agent模式"
+                ],
+                "desc": "AI-first代码编辑器（VS Code分支），深度集成LLM，支持Agent自主编程。"
+            },
+            {
+                "title": "Windsurf",
+                "link": "https://windsurf.com",
+                "tags": [
+                    "AI编辑器",
+                    "Agent流"
+                ],
+                "desc": "AI编程IDE，Cascade Agent流可规划和执行跨文件多步编程任务。"
+            },
+            {
+                "title": "Devin",
+                "link": "https://devin.ai",
+                "tags": [
+                    "自主工程师",
+                    "全栈"
+                ],
+                "desc": "Cognition AI全自主AI软件工程师，独立拥有浏览器、编辑器和终端。"
+            },
+            {
+                "title": "GitHub Copilot",
+                "link": "https://github.com/features/copilot",
+                "tags": [
+                    "编程助手",
+                    "IDE集成"
+                ],
+                "desc": "GitHub AI编程助手，Copilot Workspace支持Agent模式多文件编辑。"
+            },
+            {
+                "title": "Replit Agent",
+                "link": "https://replit.com",
+                "tags": [
+                    "编程Agent",
+                    "云端IDE"
+                ],
+                "desc": "Replit云端IDE中的AI Agent，从提示词自主创建、调试和部署完整应用。"
+            },
+            {
+                "title": "Lovable",
+                "link": "https://lovable.dev",
+                "tags": [
+                    "应用生成器",
+                    "全栈"
+                ],
+                "desc": "从自然语言提示词生成全栈Web应用的AI Agent，支持快速原型和部署。"
+            },
+            {
+                "title": "Bolt.new",
+                "link": "https://bolt.new",
+                "tags": [
+                    "编程Agent",
+                    "浏览器"
+                ],
+                "desc": "StackBlitz浏览器内AI编程Agent，基于WebContainers构建和部署全栈应用。"
+            },
+            {
+                "title": "Aider",
+                "link": "https://aider.chat",
+                "tags": [
+                    "编程Agent",
+                    "开源",
+                    "终端"
+                ],
+                "desc": "开源终端AI结对编程工具，支持多文件编辑和Git集成。"
+            },
+            {
+                "title": "OpenHands",
+                "link": "https://openhands.ai",
+                "tags": [
+                    "编程Agent",
+                    "开源"
+                ],
+                "desc": "开源自主AI软件开发平台（前身OpenDevin），可写代码、浏览网页、用命令行。"
+            },
+            {
+                "title": "SWE-agent",
+                "link": "https://swe-agent.com",
+                "tags": [
+                    "编程Agent",
+                    "开源",
+                    "Issue修复"
+                ],
+                "desc": "Princeton NLP开源编程Agent，自主修复GitHub Issues，SWE-bench高分。"
+            }
+        ]
     }
 ]
