@@ -862,16 +862,6 @@
                 "desc": "微软开源多Agent对话协作框架，支持Agent间自主协商完成复杂任务。"
             },
             {
-                "title": "CrewAI",
-                "link": "https://crewai.com",
-                "tags": [
-                    "多Agent",
-                    "开源",
-                    "角色协作"
-                ],
-                "desc": "多Agent角色扮演协作编排框架，定义角色和任务让Agent团队合作。"
-            },
-            {
                 "title": "LangChain",
                 "link": "https://langchain.com",
                 "tags": [
