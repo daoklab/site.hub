@@ -880,6 +880,16 @@
                     "开源"
                 ],
                 "desc": "开源LLM应用开发平台，可视化Agent工作流编排，支持RAG和工具集成。"
+            },
+            {
+                "title": "n8n",
+                "link": "https://n8n.io",
+                "icon": "./icon/n8n.svg",
+                "tags": [
+                    "工作流自动化",
+                    "开源"
+                ],
+                "desc": "开源工作流自动化平台，支持AI Agent节点，可连接400+服务实现自主任务编排。"
             }
         ]
     },
@@ -915,6 +925,16 @@
                     "全栈"
                 ],
                 "desc": "Cognition AI全自主AI软件工程师，独立拥有浏览器、编辑器和终端。"
+            },
+            {
+                "title": "TRAE",
+                "link": "https://www.trae.ai",
+                "icon": "./icon/trae.svg",
+                "tags": [
+                    "编程Agent",
+                    "IDE"
+                ],
+                "desc": "字节跳动AI原生IDE，集成智能编程Agent，支持对话式代码生成与多模态交互。"
             }
         ]
     }
