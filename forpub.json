@@ -239,20 +239,6 @@
                 "desc": "AI音乐创作平台， 通过文字描述直接生成包含人声、旋律和伴奏的原创完整歌曲。"
             },
             {
-                "title": "Codex",
-                "link": "https://chatgpt.com/zh-Hans-CN/codex/",
-                "icon": "./icon/codex.svg",
-                "tags": ["AI编程"],
-                "desc": "ChatGPT提供的AI编程工具，能为开发者自主执行任务的智能体。"
-            },
-            {
-                "title": "Cursor",
-                "link": "https://cursor.com",
-                "icon": "./icon/cursor.svg",
-                "tags": ["AI编程"],
-                "desc": "AI编辑器和编码智能体， 深度集成大语言模型，提升程序开发效率。"
-            },
-            {
                 "title": "GitHub Copilot",
                 "link": "https://github.com/copilot",
                 "icon": "./icon/copilot.svg",
@@ -1007,12 +993,19 @@
             {
                 "title": "Codex",
                 "link": "https://chat.openai.com",
-                "icon": "./icon/chatgpt.svg",
+                "icon": "./icon/codex.svg",
                 "tags": [
                     "编程Agent",
                     "云端"
                 ],
                 "desc": "OpenAI云端自主编程Agent，沙箱环境执行，自动修Bug和创建PR。"
+            },
+            {
+                "title": "Cursor",
+                "link": "https://cursor.com",
+                "icon": "./icon/cursor.svg",
+                "tags": ["AI编程"],
+                "desc": "AI编辑器和编码智能体， 深度集成大语言模型，提升程序开发效率。"
             },
             {
                 "title": "Devin",
