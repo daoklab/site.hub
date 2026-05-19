@@ -108,11 +108,32 @@
                 "desc": "阿里云旗下协同个人智能体，主打本地/云端双部署、国内平台原生适配。"
             },
             {
+                "title": "MuleRun",
+                "link": "https://mulerun.com/zh-CN",
+                "icon": "./icon/mulerun.svg",
+                "tags": ["云端"],
+                "desc": "骡子快跑运行在专属云端主机，每次成功运行工作流都会从中学习并进化。"
+            },
+            {
+                "title": "LobeHub",
+                "link": "https://lobehub.com/zh",
+                "icon": "./icon/lobehub.svg",
+                "tags": ["本地","开源"],
+                "desc": "面向工作与生活的协作式Agent平台，多模型与多模态支持。"
+            },
+            {
                 "title": "nexu",
                 "link": "https://nexu.io/zh",
                 "icon": "./icon/nexu.svg",
                 "tags": ["开源","免费"],
                 "desc": "OpenClaw龙虾开源客户端，模型自由选，数据100%本地，完全免费。"
+            },
+            {
+                "title": "HiClaw",
+                "link": "https://hiclaw.io",
+                "icon": "./icon/hiclaw.svg",
+                "tags": ["本地","开源"],
+                "desc": "开源多Agent协同操作系统，协调多个Worker Agent完成复杂任务。"
             }
         ]
     },
@@ -216,6 +237,13 @@
                 "icon": "./icon/suno.svg",
                 "tags": ["AI音乐"],
                 "desc": "AI音乐创作平台， 通过文字描述直接生成包含人声、旋律和伴奏的原创完整歌曲。"
+            },
+            {
+                "title": "Codex",
+                "link": "https://chatgpt.com/zh-Hans-CN/codex/",
+                "icon": "./icon/codex.svg",
+                "tags": ["AI编程"],
+                "desc": "ChatGPT提供的AI编程工具，能为开发者自主执行任务的智能体。"
             },
             {
                 "title": "Cursor",
@@ -639,6 +667,27 @@
                 "icon": "./icon/truenas.svg",
                 "tags": ["NAS系统"],
                 "desc": "基于ZFS的免费开源NAS系统。"
+            },
+            {
+                "title": "OpenMediaVault",
+                "link": "https://www.openmediavault.org",
+                "icon": "./icon/openmediavault.svg",
+                "tags": ["NAS系统"],
+                "desc": "免费开源的轻量级NAS系统。"
+            },
+            {
+                "title": "Unraid",
+                "link": "https://unraid.net",
+                "icon": "./icon/unraid.svg",
+                "tags": ["NAS系统","收费"],
+                "desc": "家庭和小型工作室的NAS系统。"
+            },
+            {
+                "title": "Proxmox VE",
+                "link": "https://www.proxmox.com",
+                "icon": "./icon/proxmox.svg",
+                "tags": ["虚拟机系统","PVE"],
+                "desc": "虚拟机和Docker容器的虚拟化环境。"
             }
         ]
     },
@@ -660,6 +709,13 @@
                 "desc": "国内代码托管平台，支持Git和SVN，提供免费的私有仓库托管。"
             },
             {
+                "title": "雷池WAF",
+                "link": "https://waf-ce.chaitin.cn",
+                "icon": "./icon/safeline.svg",
+                "tags": ["Web防火墙"],
+                "desc": "简单高效的Web应用防火墙，能有效防御SQL注入、XSS等各类Web攻击。"
+            },
+            {
                 "title": "Visual Studio Code",
                 "link": "https://code.visualstudio.com",
                 "icon": "./icon/vscode.svg",
@@ -674,11 +730,53 @@
                 "desc": "支持超大文件和Unicode的最佳Windows文本编辑器。"
             },
             {
+                "title": "WampServer",
+                "link": "https://www.wampserver.com",
+                "icon": "./icon/wampserver.svg",
+                "tags": ["Web开发环境","LAMP"],
+                "desc": "为Windows系统设计的本地Web开发集成环境‌。"
+            },
+            {
                 "title": "iconfont",
                 "link": "https://www.iconfont.cn",
                 "icon": "./icon/iconfont.svg",
                 "tags": ["矢量图标"],
                 "desc": "阿里巴巴矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。"
+            },
+            {
+                "title": "Thunderbird",
+                "link": "https://www.thunderbird.net/zh-CN/",
+                "icon": "./icon/thunderbird.svg",
+                "tags": ["邮件客户端"],
+                "desc": "免费开源的跨平台‌邮件与日程管理客户端。"
+            },
+            {
+                "title": "Rufus",
+                "link": "https://rufus.ie/zh/",
+                "icon": "./icon/rufus.svg",
+                "tags": ["U盘启动"],
+                "desc": "小巧强大的免费U盘启动盘制作工具。"
+            },
+            {
+                "title": "WePE",
+                "link": "https://www.wepe.com.cn",
+                "icon": "./icon/wepe.svg",
+                "tags": ["U盘启动","微PE"],
+                "desc": "U盘启动盘制作及PE系统维护工具。"
+            },
+            {
+                "title": "balenaEtcher",
+                "link": "https://etcher.balena.io",
+                "icon": "./icon/etcher.svg",
+                "tags": ["U盘启动"],
+                "desc": "免费开源的跨平台USB启动盘制作工具。"
+            },
+            {
+                "title": "篡改猴Tampermonkey",
+                "link": "https://www.tampermonkey.net",
+                "icon": "./icon/tampermonkey.svg",
+                "tags": ["浏览器扩展","油猴"],
+                "desc": "功能强大的浏览器用户脚本管理器。"
             },
             {
                 "title": "Unsplash",
