@@ -7,9 +7,46 @@
 <meta name="keywords" content="HUB,为你导航,网址导航,导航网站">
 <meta name="description" content="HUB是一个免费开源的程序开发实用网址导航。收集国内外对程序员开发方面的优质网站，其中包括常用的开发工具和实用网址等。不断更新收录优秀的开发者网址导航。">
 <meta name="author" content="Fanly">
+<meta name="copyright" content="TearSnow">
+<meta name="referrer" content="always">
 <link rel="canonical" href="https://for.pub">
 <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 <link rel="icon" href="./favicon.ico" type="image/x-icon">
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "name": "为你导航",
+            "alternateName": ["For.Pub", "ForPub"],
+            "url": "https://for.pub"
+        },
+        {
+            "@type": "Organization",
+            "name": "For.Pub",
+            "url": "https://for.pub",
+            "sameAs": [
+                "https://github.com/HiForPub"
+            ],
+            "logo": "https://for.pub/apple-touch-icon.png",
+            "email": "hi@for.pub"
+        },
+        {
+            "@type": "ImageObject",
+            "contentUrl": "https://for.pub/apple-touch-icon.png",
+            "license": "https://for.pub",
+            "acquireLicensePage": "https://for.pub",
+            "copyrightNotice": "For.Pub",
+            "creditText": "For.Pub",
+            "creator": {
+                "@type": "Organization",
+                "name": "For.Pub"
+            }
+        }
+    ]
+}
+</script>
 <style>
 :root {
   --primary: #2c8b30;       /* 主色调 (按钮、标题、激活态) */
@@ -23,7 +60,7 @@ html{height:100%;scrollbar-width:none}
 body{display:flex;flex-direction:column;min-height:100%;background:var(--bg-base);color:var(--text-main)}
 header{display:flex;justify-content:space-between;align-items:center;width:100%;max-width:1920px;padding:16px 20px;margin:0 auto}
 header h1{font-size:22px;font-weight:400}
-header h1 a{display:flex;gap:8px;color:var(--primary)}
+header h1 a{display:flex;align-items:center;gap:8px;color:var(--primary)}
 header h1 img{width:22px}
 header nav{display:flex;align-items:center;gap:20px}
 header nav a{color:var(--text-main)}
@@ -67,9 +104,9 @@ section,.tabs{opacity:0;transform:translateY(10px);animation:fadeIn .25s ease fo
 
 <main>
     <h2 onclick="location.reload()">独立开发者 实用工具箱</h2>
-    <input id="search" placeholder="搜索标题 / 内容 / 域名" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus>
+    <input id="search" placeholder="搜索 标题 / 内容 / 域名" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus>
     <div class="tabs" id="tabs"></div>
-    <div class="content" id="content"></div> 
+    <div class="content" id="content"></div>
 </main>
 
 <footer>
@@ -78,7 +115,7 @@ section,.tabs{opacity:0;transform:translateY(10px);animation:fadeIn .25s ease fo
 </footer>
 
 <script>
-let link = "./forpub.json" // 加载的 JSON 数据
+let link = './' + (location.pathname.split('/').pop() || 'index.html').replace(/\.\w+$/, '.json'); // 根据当前文件名加载对应的 JSON 数据
 let data = []
 let ALLTEXT = "全部"
 let categories = [ALLTEXT]
@@ -91,94 +128,101 @@ data = [
         category: "热门推荐",
         items: [
             {
+                title: "Hermes Agent",
+                link: "https://hermes-agent.nousresearch.com",
+                icon: "./icon/hermesagent.svg",
+                tags: ["本地部署","开源"],
+                desc: "开源自主AI智能体，具备自我学习与进化"
+            },
+            {
                 title: "OpenClaw",
                 link: "https://openclaw.ai",
                 icon: "./icon/openclaw.svg",
                 tags: ["本地部署","开源"],
-                desc: "本地优先的自主个人AI龙虾，可调用多种大型语言模型。",
+                desc: "本地优先的自主个人AI龙虾，可调用多种大型语言模型"
             },
             {
                 title: "DeepSeek",
                 link: "https://chat.deepseek.com",
                 icon: "./icon/deepseek.svg",
                 tags: ["聊天机器人"],
-                desc: "幻方量化旗下深度求索，助力编程代码开发、创意写作、文件处理等任务。"
+                desc: "幻方量化旗下深度求索，助力编程代码开发、创意写作、文件处理等任务"
             },
             {
                 title: "Ollama",
                 link: "https://ollama.com",
                 icon: "./icon/ollama.svg",
                 tags: ["本地部署","开源"],
-                desc: "‌开源跨平台大模型工具‌，在本地运行、管理和与大型语言模型进行交互。"
+                desc: "开源跨平台大模型工具，在本地运行、管理和与大型语言模型进行交互"
             },
             {
                 title: "Chatbox",
                 link: "https://chatboxai.app/zh",
                 icon: "./icon/chatboxai.svg",
                 tags: ["AI客户端","免费开源"],
-                desc: "开源免费的全平台AI客户端，支持众多先进的AI模型和API。"
+                desc: "开源免费的全平台AI客户端，支持众多先进的AI模型和API"
             },
             {
                 title: "WordPress",
                 link: "https://cn.wordpress.org",
                 icon: "./icon/wordpress.svg",
                 tags: ["博客","开源","PHP"],
-               desc: "全球数百万网站的首选开源发布平台。",
+                desc: "全球数百万网站的首选开源发布平台"
             },
             {
                 title: "Cloudflare",
                 link: "https://www.cloudflare.com/zh-cn/",
                 icon: "./icon/cloudflare.svg",
                 tags: ["CDN","免费","赛博菩萨"],
-                desc: "免费CDN内容分发网络和边缘计算，提升网站访问速度并抵御网络攻击。"
+                desc: "免费CDN内容分发网络和边缘计算，提升网站访问速度并抵御网络攻击"
             },
             {
                 title: "EdgeOne",
                 link: "https://edgeone.ai/zh",
                 icon: "./icon/edgeone.svg",
                 tags: ["CDN","免费"],
-                desc: "腾讯云旗下国际边缘节点，全球首个支持中国访问的免费CDN。"
+                desc: "腾讯云旗下国际边缘节点，全球首个支持中国访问的免费CDN"
             },
             {
                 title: "Debian",
                 link: "https://www.debian.org",
                 icon: "./icon/debian.svg",
                 tags: ["企业级","Linux系统"],
-                desc: "稳定安全著称的开源服务器操作系统。"
+                desc: "稳定安全著称的开源服务器操作系统"
             },
             {
                 title: "GitHub",
                 link: "https://github.com",
                 icon: "./icon/github.svg",
                 tags: ["代码托管"],
-                desc: "微软旗下的开源代码托管平台，提供版本控制、协作开发和项目管理功能。"
+                desc: "微软旗下的开源代码托管平台，提供版本控制、协作开发和项目管理功能"
             },
             {
                 title: "码云Gitee",
                 link: "https://gitee.com",
                 icon: "./icon/gitee.svg",
                 tags: ["代码托管"],
-                desc: "国内代码托管平台，支持Git和SVN，提供免费的私有仓库托管。"
+                desc: "国内代码托管平台，支持Git和SVN，提供免费的私有仓库托管"
             },
             {
                 title: "iconfont",
                 link: "https://www.iconfont.cn",
                 icon: "./icon/iconfont.svg",
                 tags: ["矢量图标"],
-                desc: "阿里巴巴矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。"
+                desc: "阿里巴巴矢量图标库，提供矢量图标下载、在线存储、格式转换等功能"
             },
             {
                 title: "Unsplash",
                 link: "https://unsplash.com",
                 icon: "./icon/unsplash.svg",
                 tags: ["摄影图库","免费商用"],
-                desc: "高品质摄影图片库，以其照片的艺术感、高清画质和自由的商业使用许可而闻名。"
-            },
+                desc: "高品质摄影图片库，以其照片的艺术感、高清画质和自由的商业使用许可而闻名"
+            }
         ]
     },
 ]
 
-// 🔒 XSS 防护函数
+// XSS 防护函数
 function escapeHTML(str){
     return String(str).replace(/[&<>"']/g, s => ({
         "&":"&amp;",
@@ -189,7 +233,7 @@ function escapeHTML(str){
     }[s]))
 }
 
-// 🌐 URL 校验
+// URL 校验
 function isValidURL(url){
     try{
         new URL(url)
@@ -200,7 +244,7 @@ function isValidURL(url){
 }
 
 // 获取数据
-let isLoaded = false; 
+let isLoaded = false;
 async function loadData(){
     categories = [ALLTEXT, ...data.map(d=>d.category)];
     active = decodeURIComponent(location.hash.replace("#", "")) || ALLTEXT;
@@ -264,10 +308,10 @@ function initTabs(){
 // 搜索
 let searchTimer
 document.getElementById("search").oninput = (e)=>{
-    const value = e.target.value.toLowerCase()
+    let value = e.target.value = e.target.value.trimStart().toLowerCase()
     clearTimeout(searchTimer)
     searchTimer = setTimeout(()=>{
-        keyword = value
+        keyword = value.trim()
         render()
     }, 300)
 }
@@ -323,6 +367,16 @@ function render(newData){
         content.innerHTML = `<div class="empty">没有相关内容</div>`
     }
 }
+
+// 链接跳转 utm_source
+content.addEventListener('click', e => {
+    const a = e.target.closest('a');
+    if (!a) return;
+    e.preventDefault();
+    const url = new URL(a.href);
+    url.searchParams.set('utm_source', location.host || 'for.pub');
+    window.open(url,'_blank');
+})
 
 loadData()
 </script>
