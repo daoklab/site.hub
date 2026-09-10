@@ -1736,6 +1736,60 @@
                     "开源"
                 ],
                 "desc": "开源工作流自动化平台，支持AI Agent节点，可连接400+服务实现自主任务编排。"
+            },
+            {
+                "title": "SiliconFlow",
+                "link": "https://siliconflow.cn",
+                "icon": "./icon/siliconflow.svg",
+                "tags": [
+                    "Agent平台",
+                    "国内",
+                    "开源"
+                ],
+                "desc": "硅基流动旗下AI模型服务平台，提供一站式API和Agent开发工具，支持多种开源大模型。"
+            },
+            {
+                "title": "Hermes Agent",
+                "link": "https://hermesagent.ai",
+                "icon": "./icon/hermesagent.svg",
+                "tags": [
+                    "Agent框架",
+                    "开源"
+                ],
+                "desc": "开源多Agent协作框架，支持自主规划、工具调用和任务执行。"
+            },
+            {
+                "title": "DeepSeek DSH",
+                "link": "https://chat.deepseek.com",
+                "icon": "./icon/deepseek.svg",
+                "tags": [
+                    "自主Agent",
+                    "国内",
+                    "云端"
+                ],
+                "desc": "DeepSeek旗下智能助手平台，支持多轮对话、代码生成、联网搜索等自主任务执行。"
+            },
+            {
+                "title": "百川智能",
+                "link": "https://www.baichuan.cn",
+                "icon": "./icon/baichuan.svg",
+                "tags": [
+                    "Agent平台",
+                    "国内",
+                    "云端"
+                ],
+                "desc": "百川智能旗下大模型服务平台，提供智能体开发、多模态AI能力和企业级Agent解决方案。"
+            },
+            {
+                "title": "01.ai",
+                "link": "https://01.ai",
+                "icon": "./icon/yian.svg",
+                "tags": [
+                    "Agent平台",
+                    "国内",
+                    "开源"
+                ],
+                "desc": "零一万物旗下AI智能体平台，基于Yi大模型，支持多Agent协作和任务自动化。"
             }
         ]
     },
